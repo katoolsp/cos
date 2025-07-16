@@ -40,7 +40,6 @@ The Common Operating System (COS) is an under-development, gold-standard 64-bit 
    This displays "Welcome to the Common Operating System!" in QEMU.
 
 ## Future Plans
-------------
 - VGA text driver with newline and scrolling support.
 - Keyboard input via PS/2 for an interactive shell.
 - Memory management with a frame allocator.
@@ -50,10 +49,8 @@ The Common Operating System (COS) is an under-development, gold-standard 64-bit 
 - Package manager and simple text-based GUI.
 - Networking and server capabilities.
 
-Contributing
-------------
+## Contributing
 Contributions are welcome! Test changes with `make boot` and ensure no linker errors. Use a version control system like Git to manage changes.
 
-Contact
--------
+## Contact
 Open an issue on the repository or contact me at <me@spamska.com> for questions.
