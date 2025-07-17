@@ -6,7 +6,7 @@ The Common Operating System (COS) is an under-development, gold-standard 64-bit 
 
 ## Current Features
 - Two-stage bootloader:
-  - boot_sector.s: Loads the initial boot sector and reads the second stage from disk.
+  - boot.s: Loads the initial boot sector and reads the second stage from disk.
   - stage2.s: Transitions from 16-bit real mode to 32-bit protected mode, then to 64-bit long mode, and sets up a basic 4-level page table.
 - Rust kernel (kernel.rs):
   - Clears the VGA text buffer (0xb8000).
